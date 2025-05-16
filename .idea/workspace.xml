@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d27a93c-9c5e-4ca8-908c-e4759ae412e2" name="Changes" comment="сделал третий таск(второй пока что пропустил)">
-      <change afterPath="$PROJECT_DIR$/task4/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/test.txt" afterDir="false" />
+    <list default="true" id="1d27a93c-9c5e-4ca8-908c-e4759ae412e2" name="Changes" comment="добавил комментов к коду">
+      <change afterPath="$PROJECT_DIR$/TODO.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +120,31 @@
       <option name="project" value="LOCAL" />
       <updated>1747432713285</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="сделал третий таск(второй пока что пропустил)">
+      <option name="closed" value="true" />
+      <created>1747434596945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747434596945</updated>
+    </task>
+    <task id="LOCAL-00005" summary="сделал 4 таск, это чистая копия задачи с соревнования, я даже немного настольгию словил">
+      <option name="closed" value="true" />
+      <created>1747434711769</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747434711769</updated>
+    </task>
+    <task id="LOCAL-00006" summary="добавил комментов к коду">
+      <option name="closed" value="true" />
+      <created>1747435113074</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747435113074</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="первый таск выполнен" />
     <MESSAGE value="сделал третий таск(второй пока что пропустил)" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделал третий таск(второй пока что пропустил)" />
+    <MESSAGE value="сделал 4 таск, это чистая копия задачи с соревнования, я даже немного настольгию словил" />
+    <MESSAGE value="добавил комментов к коду" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил комментов к коду" />
   </component>
 </project>
