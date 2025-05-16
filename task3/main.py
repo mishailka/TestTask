@@ -34,5 +34,5 @@ if __name__ == "__main__":
     report_data = fill_data(test_data,values_data)
 
     with open(report_file,"w",encoding="utf-8") as file:
-        json.dump(report_data,file,indent=2,ensure_ascii=False)
+        json.dump(report_data,file,indent=3)
         
