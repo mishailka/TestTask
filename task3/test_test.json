@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "id": 2,
+      "title": "Smoke test",
+      "value": ""
+    },
+    {
+      "id": 41,
+      "title": "Debug test",
+      "value": ""
+    },
+    {
+      "id":73,
+      "title":"Somefuck test",
+      "value" : ""
+    }
+  ]
+}
