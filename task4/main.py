@@ -1,19 +1,24 @@
 import sys
-
+"""
+функция ищет самый дешевый путь по изменению всех элеметов к одному 
+принимает числовой массив, возвращает число 
+"""
 def find_cheapest_path(numarr):
-    if not numarr or not isinstance(numarr,list):
+    if not numarr or not isinstance(numarr,list): #проверка на существование переданного элемента и на то
+                                                # массив ли это
         return 0
-    cheapest_path = None
+    cheapest_path = None  #инициация для первого сравнения
 
     for each_elem in numarr:
-        temp_path = 0
+        temp_path = 0 # тут хранится стоимость превидения всех элементов к этому
         for other_each_elem in numarr:
-            temp_path += abs(each_elem-other_each_elem)
+            temp_path += abs(each_elem-other_each_elem) #записываем сколько нужно чтобы привести один элемент ко второму
         if cheapest_path is None or cheapest_path > temp_path:
             cheapest_path = temp_path
     return cheapest_path if cheapest_path is not None else 0
 
 
+#просто считывание файла из txt
 def read_numbers_from_file(file_path):
     numbers = []
     with open(file_path, 'r', encoding='utf-8') as file:
