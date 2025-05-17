@@ -21,7 +21,7 @@ def fill_data(test_data, values_data):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Использование: python task3.py"
+        print("Использование: python main.py"
               " <путь_к_tests.json> "
               "<путь_к_values.json>"
               " <путь_к_report.json>")
