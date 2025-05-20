@@ -35,7 +35,7 @@ def read_numbers_from_file(file_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Использование: python main.py"
+        print("Использование: python task4.py"
               " <путь_к_файлу.txt> ")
         sys.exit(1)
     file_path = sys.argv[1]

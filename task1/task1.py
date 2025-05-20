@@ -18,7 +18,7 @@ def find_array_path(n, m):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Использование: python main.py <n> <m>")
+        print("Использование: python task1.py <n> <m>")
         sys.exit(1)
     n = int(sys.argv[1])
     m = int(sys.argv[2])
